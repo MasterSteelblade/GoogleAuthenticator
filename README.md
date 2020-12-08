@@ -9,7 +9,7 @@ PHP app (Of course, you can also create them with this).
 
 Branch | Github Actions |
 ------ | -------------- |
-master | [![Test][https://github.com/MasterSteelblade/GoogleAuthenticator/workflows/Test/badge.svg]] |
+master | [![Test](https://github.com/MasterSteelblade/GoogleAuthenticator/workflows/Test/badge.svg) |
 
 
 ## Requirements
