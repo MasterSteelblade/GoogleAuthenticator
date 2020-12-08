@@ -1,0 +1,42 @@
+{
+    "name": "masetrsteelblade/google-authenticator",
+    "type": "library",
+    "description": "Library to integrate Google Authenticator into a PHP project",
+    "keywords": [
+        "google authenticator"
+    ],
+    "homepage": "https://github.com/MasterSteelblade/GoogleAuthenticator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Clarke",
+            "email": "mastersteelblade@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.1.8"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Google\\Authenticator\\": "src/",
+            "Steelblade\\GoogleAuthenticator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Google\\Authenticator\\Tests\\": "tests/",
+            "Steelblade\\GoogleAuthenticator\\Tests\\": "tests/"
+        }
+    }
+}
