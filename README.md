@@ -7,9 +7,8 @@ http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=1066447
 to generate One Time Passwords/Tokens and check them with this little
 PHP app (Of course, you can also create them with this).
 
-Branch | Github Actions | Coverage |
------- | -------------- | -------- |
-2.x    | [![Test][test_stable_badge]][test_stable_link]  |
+Branch | Github Actions |
+------ | -------------- |
 master | [![Test][test_stable_badge]][test_stable_link] |
 
 
