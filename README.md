@@ -23,15 +23,16 @@ composer require mastersteelblade/google-authenticator
 
 See example.php for how to use it.
 
-There's a little web app showing how it works in web/, please make users.dat
-writeable for the webserver, doesn't really work otherwise (it can't save the
-secret). Try to login with chregu/foobar.
+The original Sonata web app is present in web/, pending an overhaul. Please make users.dat
+writeable for the webserver, or the secret can't be saved. Try to login with chregu/foobar.
 
 What's missing in the example:
 
- * Prevent replay attacks. One token should only be used once
+ * Prevent replay attacks. A token should only be used once in order to prevent the risk of shoulder surfing. 
  * Show QR Code only when providing password again (or not at all)
- * Regenerate secret
+ * Regenerate secret on user request. 
+
+Feel free to submit PRs to improve this, or wait until I get around to it myself. 
 
 ## Support
 Please use GitHub issues for support, as they're the easiest way to get in touch with me. Feel free to submit feature requests and bug reports, and I'll do what I can to implement them! 
