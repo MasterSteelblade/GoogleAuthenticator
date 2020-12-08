@@ -1,5 +1,5 @@
 {
-    "name": "masetrsteelblade/google-authenticator",
+    "name": "mastersteelblade/google-authenticator",
     "type": "library",
     "description": "Library to integrate Google Authenticator into a PHP 8.0+ project",
     "keywords": [
