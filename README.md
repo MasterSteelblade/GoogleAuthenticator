@@ -1,11 +1,8 @@
 # Google Authenticator
 
-Ported from http://code.google.com/p/google-authenticator/
+This package provides Google Authenticator functionality to your sites. 
 
-You can use the Google Authenticator app from here
-http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=1066447
-to generate One Time Passwords/Tokens and check them with this little
-PHP app (Of course, you can also create them with this).
+Documentation is pending. 
 
 Branch | Github Actions |
 ------ | -------------- |
@@ -37,11 +34,11 @@ What's missing in the example:
  * Regenerate secret
 
 ## Support
-Please use GitHub issues for support, as they're the easiest way to get in touch with me. 
+Please use GitHub issues for support, as they're the easiest way to get in touch with me. Feel free to submit feature requests and bug reports, and I'll do what I can to implement them! 
 
 If you think you found a bug or you have a feature idea to propose, feel free to open an issue
 **after looking** at the [contributing guide](CONTRIBUTING.md).
 
 ## License
 
-This package is available under the [MIT license](LICENSE), and was originally forked form [Sonata Project](https://github.com/sonata-project/GoogleAuthenticator).
+This package is available under the [MIT license](LICENSE), and was originally forked from the seemingly abandoned [Sonata Project](https://github.com/sonata-project/GoogleAuthenticator) fork.
