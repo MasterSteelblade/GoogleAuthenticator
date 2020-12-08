@@ -1,7 +1,7 @@
 {
     "name": "masetrsteelblade/google-authenticator",
     "type": "library",
-    "description": "Library to integrate Google Authenticator into a PHP project",
+    "description": "Library to integrate Google Authenticator into a PHP 8.0+ project",
     "keywords": [
         "google authenticator"
     ],
@@ -24,7 +24,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.x-dev"
+            "dev-master": "dev"
         }
     },
     "autoload": {
