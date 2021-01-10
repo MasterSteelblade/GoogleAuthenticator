@@ -56,6 +56,8 @@ final class GoogleQrUrl
      * @param string|null $issuer      Where you log in to
      * @param int         $size        Image size in pixels, 200 will make it 200x200
      */
+
+    
     public static function generate(string $accountName, string $secret, ?string $issuer = null, int $size = 200): string
     {
         if ('' === $accountName || false !== strpos($accountName, ':')) {
@@ -81,11 +83,11 @@ final class GoogleQrUrl
 
         $otpauthString = rawurlencode(sprintf($otpauthString, $label, $secret, $issuer));
 
-        return sprintf(
+        return array(sprintf(
             'https://api.qrserver.com/v1/create-qr-code/?size=%1$dx%1$d&data=%2$s&ecc=M',
             $size,
             $otpauthString
-        );
+        ), $otpauthString);
     }
 }
 
